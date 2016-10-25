@@ -122,8 +122,6 @@ namespace Danny.Infrastructure
         /// <summary>
         /// 验证字符串是否是正确的Email格式
         /// </summary>
-        /// <param name="email">Email to verify</param>
-        /// <returns>true if the string is a valid e-mail address and false if it's not</returns>
         public static bool IsValidEmail(string email)
         {
             if (String.IsNullOrEmpty(email))
