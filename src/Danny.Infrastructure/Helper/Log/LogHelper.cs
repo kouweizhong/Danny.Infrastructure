@@ -1,6 +1,6 @@
 ﻿using log4net;
 
-namespace Danny.Infrastructure.Helper.Log4Net
+namespace Danny.Infrastructure.Helper.Log
 {
     public class LogHelper
     {
