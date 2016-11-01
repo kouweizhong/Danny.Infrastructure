@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Office.Interop.Word;
 
-namespace Danny.Infrastructure.Helper.Office
+namespace Danny.Infrastructure.Helper
 {
     public class WordHelper
     {
@@ -35,7 +35,6 @@ namespace Danny.Infrastructure.Helper.Office
             }
           
         }
-
 
         public static void HtmlToWord(string sourceFileName, string targetFileName )
         {
