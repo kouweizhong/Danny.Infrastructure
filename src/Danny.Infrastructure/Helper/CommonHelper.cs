@@ -61,39 +61,7 @@ namespace Danny.Infrastructure.Helper
 
         #endregion
 
-        #region 返回中文格式的时间差
-
-        /// <summary>
-        /// 获取当前时间到某个时间的中文格式的时间差
-        /// 例如 :1小时前
-        /// </summary>
-        /// <param name="targetTime">目标时间</param>
-        /// <returns>中文格式的时间差</returns>
-        public static string DateDiff(DateTime targetTime)
-        {
-            string dateDiff = null;
-
-            var timeSpan = DateTime.Now - targetTime;
-            if (timeSpan.Days >= 1)
-            {
-                dateDiff = targetTime.Month + "月" + targetTime.Day + "日";
-            }
-            else
-            {
-                if (timeSpan.Hours > 1)
-                {
-                    dateDiff = timeSpan.Hours + "小时前";
-                }
-                else
-                {
-                    dateDiff = timeSpan.Minutes + "分钟前";
-                }
-            }
-            
-            return dateDiff;
-        }
-
-        #endregion
+       
 
         #region 生成字符串类型的随机数字
 

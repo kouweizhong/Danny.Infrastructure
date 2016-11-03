@@ -67,6 +67,7 @@
     <Compile Include="Caching\AspNetCacheManager.cs" />
     <Compile Include="Caching\ICacheManager.cs" />
     <Compile Include="Extensions\ModelStateExtension.cs" />
+    <Compile Include="Helper\TimeHelper.cs" />
     <Compile Include="Helper\CommonHelper.cs" />
     <Compile Include="Helper\DesEncryptorHelper.cs" />
     <Compile Include="Helper\GuidHelper.cs" />
