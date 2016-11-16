@@ -110,5 +110,27 @@ namespace Danny.Infrastructure.Helper
 
         #endregion
 
+        #region [获取应用程序根路径]
+
+        private static string GetApplicationRootPath()
+        {
+            var appPath = "";
+            var httpCurrent = HttpContext.Current;
+            if (httpCurrent != null)
+            {
+                appPath = httpCurrent.Server.MapPath("~");
+            }
+            else
+            {
+                appPath = AppDomain.CurrentDomain.BaseDirectory;
+                if (Regex.Match(appPath, @"\\$", RegexOptions.Compiled).Success)
+                    appPath = appPath.Substring(0, appPath.Length - 1);
+            }
+            return appPath;
+        }
+
+        #endregion
+
+
     }
 }
