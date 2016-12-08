@@ -126,11 +126,10 @@ namespace Danny.Infrastructure.Helper
                 if (Regex.Match(appPath, @"\\$", RegexOptions.Compiled).Success)
                     appPath = appPath.Substring(0, appPath.Length - 1);
             }
+
             return appPath;
         }
 
         #endregion
-
-
     }
 }
