@@ -66,6 +66,11 @@ namespace Lawyer.Common.Tool
         {
             //边界条件判断和处理
             if (MaxPage == 1) return new HtmlString(string.Empty);
+            if (TotalCounts == 0)
+            {
+                return new HtmlString(string.Empty);
+            }
+
             if (currentIndex > MaxPage) currentIndex = MaxPage;
             if (currentIndex < 1) currentIndex = 1;
             //分页结果显示数量
