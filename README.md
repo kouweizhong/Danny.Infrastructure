@@ -1,4 +1,4 @@
-### Caching：缓存处理
+### Caching 缓存处理
 ***
 
 ### Collections 自定义集合
@@ -10,7 +10,16 @@
 ***
 
 ### Helper 工具类
-- ProcessQueue 异步处理队列
+- Log4Net帮助类
+- 音频切割分析
+- DebugView调试封装
+- Des加密解密封装
+- Guid唯一生成器
+- Md5编码解码
+- 后端分页帮助类
+- 时间处理
+- 常用字符串格式校验
+- word转html处理
 ***
 
 ### Logging 日志处理
