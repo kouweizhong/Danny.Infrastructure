@@ -26,6 +26,8 @@
 ***
 
 ### Mathematics 科学计算
+- 空间向量模型算法
+***
 
 ### Paging Web分页
 
