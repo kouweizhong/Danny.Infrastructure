@@ -66,6 +66,8 @@
   <ItemGroup>
     <Compile Include="Caching\AspNetCacheManager.cs" />
     <Compile Include="Caching\ICacheManager.cs" />
+    <Compile Include="Helper\DebugHelper.cs" />
+    <Compile Include="Collections\ProcessQueue.cs" />
     <Compile Include="Extensions\ModelStateExtension.cs" />
     <Compile Include="Helper\TimeHelper.cs" />
     <Compile Include="Helper\CommonHelper.cs" />
@@ -76,6 +78,9 @@
     <Compile Include="Helper\Media\MediaHelper.cs" />
     <Compile Include="Helper\WordHelper.cs" />
     <Compile Include="Helper\ValidateHelper.cs" />
+    <Compile Include="Logging\ILogManager.cs" />
+    <Compile Include="Logging\LogFactory.cs" />
+    <Compile Include="Logging\LogManager.cs" />
     <Compile Include="Mathematics\VectorSpaceModel.cs" />
     <Compile Include="Helper\PageHelper.cs" />
     <Compile Include="Paging\Paging.cs" />
@@ -95,9 +100,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Logging\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
