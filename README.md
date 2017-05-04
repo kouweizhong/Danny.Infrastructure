@@ -1,4 +1,5 @@
 ### Caching 缓存处理
+- ASP.NET 自带缓存
 ***
 
 ### Collections 自定义集合
