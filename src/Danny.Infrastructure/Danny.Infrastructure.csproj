@@ -96,6 +96,7 @@
     <Content Include="Web\Javascript\Mask\ajax-loader.gif" />
     <Content Include="Web\Javascript\Mask\jquery-plugin-mask.js" />
     <Content Include="Web\Javascript\date_extension.js" />
+    <Content Include="Web\Javascript\waterfall.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
