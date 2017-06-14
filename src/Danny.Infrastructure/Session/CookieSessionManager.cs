@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 
 namespace Danny.Infrastructure.Session
 {
-    public class SessionManager:ISessionManager
+    public class CookieSessionManager:ISessionManager
     {
         private const string Key = "*#jucize_zone_123";
 
