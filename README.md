@@ -11,8 +11,10 @@
 - ProcessQueue 高性能异步处理队列
 ***
 
-### Extensions 官方类库扩展
-- ModelState校验错误信息封装
+### ASP.NNT Web API 2 过滤器
+- API权限校验过滤器
+- 全局异常捕获过滤器
+- 模型校验过滤器
 ***
 
 ### Helper 工具类
