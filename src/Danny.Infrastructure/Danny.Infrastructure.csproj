@@ -66,6 +66,9 @@
   <ItemGroup>
     <Compile Include="Caching\AspNetCacheManager.cs" />
     <Compile Include="Caching\ICacheManager.cs" />
+    <Compile Include="WebAPI\DTO\CacheCustomerModel.cs" />
+    <Compile Include="WebAPI\DTO\ResponseProtocol.cs" />
+    <Compile Include="WebAPI\DTO\ResponseResultEnum.cs" />
     <Compile Include="Helper\DebugHelper.cs" />
     <Compile Include="Collections\ProcessQueue.cs" />
     <Compile Include="Extensions\ModelStateExtension.cs" />
@@ -85,8 +88,12 @@
     <Compile Include="Helper\PageHelper.cs" />
     <Compile Include="Paging\Paging.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Session\CacheSessionManager.cs" />
     <Compile Include="Session\ISessionManager.cs" />
-    <Compile Include="Session\SessionManager.cs" />
+    <Compile Include="Session\CookieSessionManager.cs" />
+    <Compile Include="WebAPI\Filters\AuthAPIAttribute.cs" />
+    <Compile Include="WebAPI\Filters\LogExceptionFilter.cs" />
+    <Compile Include="WebAPI\Filters\ValidationModelFilter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Helper\Log\config.xml" />
