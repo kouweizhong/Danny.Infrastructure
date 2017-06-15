@@ -1,5 +1,6 @@
 ### Caching 缓存处理
 - ASP.NET 自带缓存
+- Redis缓存实现
 ***
 
 ### Session 会话处理
